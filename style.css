@@ -1,0 +1,71 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 120px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: darkorange;
+}
+
+#search {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.item {
+  background: #222;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls button {
+  margin: 0 5px;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
+
+.qty-btn {
+  background: #444;
+  color: white;
+}

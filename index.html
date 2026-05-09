@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Магазин автозапчастей</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚗 Магазин автозапчастей</h1>
+
+    <div class="form">
+      <input id="name" placeholder="Название запчасти">
+      <input id="brand" placeholder="Марка авто">
+      <input id="price" type="number" placeholder="Цена">
+      <input id="qty" type="number" placeholder="Кол-во">
+      <button onclick="addItem()">Добавить</button>
+    </div>
+
+    <input id="search" placeholder="Поиск..." oninput="render()">
+
+    <h2>Товары</h2>
+    <div id="list"></div>
+
+    <h2>💰 Общая сумма: <span id="total">0</span> сом</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
